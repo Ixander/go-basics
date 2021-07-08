@@ -8,9 +8,9 @@ func (a age) isAdult() bool {
 	return a >= 18
 }
 
-func main() {
-	myAge := age(20)
+// func main() {
+// 	myAge := age(20)
 
-	fmt.Println("Я совершеннолетний?", myAge.isAdult())
-}
+// 	fmt.Println("Я совершеннолетний?", myAge.isAdult())
+// }
 

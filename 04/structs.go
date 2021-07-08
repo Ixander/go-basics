@@ -26,13 +26,13 @@ func (e employee) setName(name string) {
 	e.name = name
 }
 
-func main() {
-	employee1 := newEmployee("Вася", "М", 25, 1500)
-	employee2 := newEmployee("Петя", "М", 28, 2000)
+// func main() {
+// 	employee1 := newEmployee("Вася", "М", 25, 1500)
+// 	employee2 := newEmployee("Петя", "М", 28, 2000)
 
-	employee1.setName("Генадий")
+// 	employee1.setName("Генадий")
 
-	fmt.Printf("%s\n", employee1.getInfo())
-	fmt.Printf("%s", employee2.getInfo())
-}
+// 	fmt.Printf("%s\n", employee1.getInfo())
+// 	fmt.Printf("%s", employee2.getInfo())
+// }
 
