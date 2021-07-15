@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 )
 
 const pi = 3.1415
@@ -19,6 +19,7 @@ func printCircleArea(radius int) {
 	}
 
 	fmt.Printf("Радиус круга: %d см.\n", radius)
+	fmt.Println("Формула для расчета площади круга: A=πr2\n")
 	fmt.Println("Формула для расчета площади круга: A=πr2\n")
 
 	fmt.Printf("Площадь круга: %f32 см. кв.\n\n", circleArea)
