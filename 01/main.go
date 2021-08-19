@@ -30,5 +30,6 @@ func calculateCircleArea(radius int) (float32, error) {
 		return float32(0), errors.New("Радиус круга не может быть отрицательным!")
 	}
 
+	fmt.Println("test")
 	return float32(radius) * float32(radius) * pi, nil
 }
