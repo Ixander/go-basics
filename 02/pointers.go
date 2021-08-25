@@ -3,7 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var p *int
+	x := 10
+	p := &x
 
-	fmt.Println(p)
+	fmt.Println("значение х", x)
+	fmt.Println("адрес х",p)
+	fmt.Println("значение *p",*p)
+
+	*p = 15
+
+	fmt.Println("значение х после изменения *p", x)
 }	
